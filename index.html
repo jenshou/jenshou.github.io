@@ -14,6 +14,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -30,6 +31,7 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -252,7 +254,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<h3>Python</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
 								    <span>80%</span>
 								  	</div>
 								</div>
@@ -263,7 +265,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<h3>R</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
 								    <span>70%</span>
 								  	</div>
 								</div>
@@ -274,7 +276,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<h3>Spark</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
 								    <span>60%</span>
 								  	</div>
 								</div>
@@ -285,7 +287,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<h3>PyTorch</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
 								    <span>60%</span>
 								  	</div>
 								</div>
@@ -296,7 +298,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<h3>SQL</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
 								    <span>80%</span>
 								  	</div>
 								</div>
@@ -317,12 +319,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section>
 
-			<section class="colorlib-education" data-section="education">
+			<section class="colorlib-education" data-section="project">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 
-							<h2 class="colorlib-heading animate-box">Education</h2>
+							<h2 class="colorlib-heading animate-box">Independent Projects</h2>
 						</div>
 					</div>
 					<div class="row">
@@ -333,7 +335,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									    <div class="panel-heading" role="tab" id="headingOne">
 									        <h4 class="panel-title">
 									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-													Master of Science in Data Science, University of San Francisco
+													Predicting In-App Purchase
 									            </a>
 									        </h4>
 									    </div>
@@ -341,10 +343,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									         <div class="panel-body">
 												<div class="row">
 										      		<div class="col-md-6">
-														<p>Courses: Machine Learning, Deep Learning, Experiment Design,
-															Computational Statistics, Time Series Analysis,
-															Data Structure, Algorithms, Distributed Computing (PySpark),
-															SQL, Data Visualization</p>
+														<p></p>
+														        <ul class="list-unstyled ul-check success">
+																  <li>Predicted whether a user will purchase in next 7 days based on user engagement data from a gaming app.</li>
+																  <li>Created labels with time windows, feature hashing and interaction terms to achieve an AUC score of 0.96 with XGBoost model and Bayesian Optimization.</li>
+																</ul>
 													</div>
 										      	</div>
 									            <div class="row">
@@ -366,7 +369,25 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 													Institute for Social Research, University of Michigan, Ann Arbor
 									            </a>
 									        </h4>
-
+											<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+												<div class="row">
+										      		<div class="col-md-6">
+														<p>Courses: Machine Learning, Deep Learning, Experiment Design,
+															Computational Statistics, Time Series Analysis,
+															Data Structure, Algorithms, Distributed Computing (PySpark),
+															SQL, Data Visualization</p>
+													</div>
+										      	</div>
+									            <div class="row">
+										      		<div class="col-md-6">
+														<p>Awards: Won Kaggle competition and presented the project
+															to the public at the USF Data Science Seminar Series.</p>
+													</div>
+										      	</div>
+									         </div>
+									    </div>
+										</div>
 									</div>
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingThree">
@@ -375,6 +396,25 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 													Bachelor of Art in Economics, National Taiwan University
 									            </a>
 									        </h4>
+											<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+												<div class="row">
+										      		<div class="col-md-6">
+														<p>Courses: Machine Learning, Deep Learning, Experiment Design,
+															Computational Statistics, Time Series Analysis,
+															Data Structure, Algorithms, Distributed Computing (PySpark),
+															SQL, Data Visualization</p>
+													</div>
+										      	</div>
+									            <div class="row">
+										      		<div class="col-md-6">
+														<p>Awards: Won Kaggle competition and presented the project
+															to the public at the USF Data Science Seminar Series.</p>
+													</div>
+
+										      	</div>
+									         </div>
+									    </div>
 									    </div>
 
 									</div>
